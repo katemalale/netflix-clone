@@ -21,6 +21,12 @@ body {
 
 }
 
+hr {
+    border: none;
+    background-color: grey;
+    height: 3px;
+}
+
 nav {
     display:  flex;
     align-items: center;
@@ -222,19 +228,23 @@ input[type="radio"]{
 
 .footer .row{
     align-items: flex-start;
+    display: flex;
+    flex-direction: column;
     padding: 10px 0px;
 }
 
 .footer .language-btn{
-    color: #ffffff31;
+    color: #120606c5;
     padding: 10px 20px;
     border-radius: 3px;
 
 }
 .copyright-txt{
     font-size: 14px;
+    font-weight: 100;
     margin-top: 20px;
     margin-bottom: 10px;
+    color: #000000;
 }
 
 @media only screen and (max-width: 600px) {
@@ -289,8 +299,8 @@ input[type="radio"]{
     .accordion li label{
         padding: 10px;
         font-size: 14px;
-    }
+}
     label::after{
         font-size: 22px;
-    }
+}
 }
